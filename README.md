@@ -1,3 +1,5 @@
+This repository is forked from https://github.com/isinaltinkaya/gptchatteR and will provide more developed functionalities based on my own needs.
+
 # gptchatteR
 An experimental and unofficial wrapper for interacting with OpenAI GPT models in R. 
 gptchatteR uses the `openai` library to handle the OpenAI API endpoints.
@@ -19,7 +21,7 @@ library(devtools)
 ### &#8594; Install the gptchatteR package
 
 ```r
-install_github("isinaltinkaya/gptchatteR")
+install_github("CodeYueXiong/gptchatteR_Roxy")
 ```
 
 ## Quickstart 
@@ -29,7 +31,7 @@ install_github("isinaltinkaya/gptchatteR")
 Load the gptchatteR package:
 
 ```R
-library(gptchatteR)
+library(gptchatteR_Roxy)
 ```
 
 Authenticate the chatter with your openai API key using the `chatter.auth` function.
